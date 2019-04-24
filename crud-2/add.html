@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Add Data</title>
+</head>
+
+<body>
+    <a href="index.php">Home</a>
+    <br/><br/>
+
+    <form action="add.php" method="post" name="form1">
+        <table width="31%" border="0">
+            <tr>
+                <td>Last name</td>
+                <td><input type="text" name="lastName"></td>
+            </tr>
+            <tr>
+                <td>First name</td>
+                <td><input type="text" name="firstName"></td>
+            </tr>
+            <tr>
+                <td>Birth date</td>
+                <td><input type="date" name="birthDate"></td>
+            </tr>
+            <tr>
+                <td>Loyalty card?</td>
+                <td><input type="checkbox" name="card" value="1"  checked></td>
+            </tr>
+            <tr>
+                <td>Loyalty card number</td>
+                <td><input type="number" name="cardNumber"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="Submit" value="Add"></td>
+                <td><input type="reset" name="Reset" value="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

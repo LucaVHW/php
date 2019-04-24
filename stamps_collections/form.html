@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> Form.HTML </title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<br>
+	<a class="button" href="index.php">Home</a>
+	<br/>
+	<hr>
+	<h3> Submit New Stamps </h3>
+	<hr>
+	<br>
+	<p></p>
+
+	<form id="addStamps" action="add.php" method="post" >
+
+	<table border="0">
+
+	
+	<tr>
+	<td> IDNR </td>
+	<td><input id="stampsIDNR" name="city" type="hidden" value="0" maxlength=11 ></td>
+	</tr>
+	
+	<tr>
+	<td>COUNTRY</td>
+	<td><input id="stampsCNTRY" name="country" type="text" value="" maxlength="40" ></td>
+	</tr>
+
+	<tr>
+	<td>YEAR</td>
+	<td><input id="stampsSELLYY" name="sellyy" type="number" value="0" maxlength=4 ></td>
+	</tr>
+
+	<tr>
+	<td>MONTH</td>
+	<td><input id="stampsSELLMM" name="sellmm" type="number" value="0" maxlength=2 ></td>
+	</tr>
+
+	<tr>
+	<td>CATNR</td>
+	<td><input id="stampsCATNR" name="catnr" type="text" value="" maxlength="40" ></td>
+	</tr>
+
+	<tr>
+	<td>SERNR</td>
+	<td><input id="stampsSERNR" name="sernr" type="text" value="" maxlength="40" ></td>
+	</tr>
+
+	<tr>
+	<td>STATE</td>
+	<td><input id="stampsSTATE" name="staat" type="text" value="" maxlength="40" ></td>
+	</tr>
+
+	<tr>
+	<td>KIND</td>
+	<td><input id="stampsKIND" name="kind" type="text" value="" maxlength="40" ></td>
+	</tr>
+
+	<tr>
+	<td>PR.Used</td>
+	<td><input id="stampsUSED" name="priceused" type="number" value="0" maxlength=11 ></td>
+	</tr>
+	
+	<tr>
+	<td>PR.UnUsed</td>
+	<td><input id="stampsUNUSED" name="priceunused" type="number" value="0" maxlength=11 ></td>
+	</tr>
+	
+	<tr>
+	<td>PR.Extra</td>
+	<td><input id="stampsEXTRA" name="priceextra" type="number" value="0" maxlength=11 ></td>
+	</tr>
+	
+	<tr>
+	<td>THEME</td>
+	<td><input id="stampsTHEME" name="theme" type="text" value="" maxlength="40" ></td>
+	</tr>
+	
+	<tr>
+	<td>COLLECTION</td>
+	<td><input id="stampsCLCTN" name="collecties" type="text" value="" maxlength="40" ></td>
+	</tr>
+
+	
+	<tr>
+		<td><br></td>
+	</tr>
+
+	<tr>
+	<td><input type="Submit" name="submit" value="Submit">
+	<input type="Reset" name="reset" value="Reset"></td>
+	</tr>
+
+
+	</table>
+
+	</form>
+
+	<hr>
+	<br>
+
+
+</body>
+</html>
+
+
